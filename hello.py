@@ -1,4 +1,3 @@
-# Programa principal
+# El famoso Hello World
+print("Hola Mundo!")
 
-mensaje = "Hola mundo"
-print(mensaje)
