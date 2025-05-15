@@ -1,12 +1,9 @@
-# Aplicación de ejemplo
+# Hola mundo
 
-Qué va a hacer la aplicación
+Creamos un hola mundo para probar todo.
 
-- Función 1
-- Función 2
-- Función 3
-    - Función 3.1
+Para ejecutar el hola mundo deben escribir en la consola
 
-## Links importantes
-
-- [Google](https://google.com)
+```bash
+python hello.py
+```
