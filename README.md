@@ -4,13 +4,15 @@ Este proyecto se hizo como base durante la sesión para revisar una estructura d
 
 ## ⚙️Instalación de dependencias
 
-CAda uno debe investigar y buscar información para instalar las siguientes dependencias. 
+Cada uno debe investigar y buscar información para instalar las siguientes dependencias. 
 
 - Visual Studio Code
 - Git
 - Python
 
-Aunque la instalación por lo general es sencilla, básicamente descargar el instalador y seleccionar opciones por defecto, ss importante que hagan todo el trabajo por sí mismos para afianzar el aprendizaje.
+Aunque la instalación por lo general es sencilla, básicamente descargar el instalador y seleccionar opciones por defecto.
+
+Es importante que hagan todo el trabajo por sí mismos para afianzar el aprendizaje.
 
 
 ## 📂 Un proyecto por directorio
@@ -29,11 +31,14 @@ Configurar tu workspace de VS Code correctamente es crucial para un desarrollo e
 
 ### 👣 Pasos
 
-- Crea una nueva carpeta para tu proyecto directamente desde el explorador de Windows. Desde la consola puedes escribir el comando 
+- Crea una nueva carpeta para tu proyecto directamente desde el explorador de Windows.
+- Desde la consola `cmd` puedes escribir el comando 
 ``` 
 mkdir nombre_directorio
 ```
--  Haz clic derecho dentro de la carpeta y selecciona "Abrir con Visual Studio Code". Desde la consola puedes hace. Desde la consola puedes escribir el comando
+
+-  Haz clic derecho dentro de la carpeta y selecciona "Abrir con Visual Studio Code".
+-  Desde la consola `cmd` puedes escribir el comando
 
 ``` 
 cd nombre_directorio
@@ -70,7 +75,7 @@ Por todo esto, recomiendo que busques tutoriales y la especificación de Markdow
 
 ¡Animate a usar Markdown y hacé tu documentación más copada!
 
-##🔂Usar Git Siempre
+## 🔂 Usar Git Siempre
 
 Incluso si planeas mantener tu proyecto solo en local y no subirlo a un repositorio remoto como GitHub, usar Git sigue siendo una excelente idea. ¿Por qué? Porque te ayuda a tener un historial claro de todos los cambios que has realizado. Si en algún momento "metes la pata" y quieres volver a una versión anterior de tu código, Git te permite hacerlo de manera sencilla.
 
@@ -203,7 +208,7 @@ Extiende el programa de estadísticas para que también muestre:
 
 ¿Qué modificaciones tienes que implementar para lograr esto?
 
-## 🔨 Ejercicio 4
+## 🔨 Ejercicio 5
 
 En un sistema de movimientos de inventario de una ferretería 🧰, se tiene la siguiente información de cada producto:
 
@@ -218,14 +223,14 @@ El sistema debe registrar entradas y salidas de inventario con fecha de la opera
 
 Se requiere un MVP (Producto Mínimo Viable) de este sistema. Desarrolla un programa en consola que presente un menú y gestione las siguientes opciones:
 
-1.  Mostrar el catálogo de todos los productos. 📚
-2.  Mostrar un producto por SKU. 🔍
-3.  Registrar una entrada/salida de inventario de un producto por SKU y número de unidades. ➕/➖
-4.  Mostrar el listado de todos los movimientos de entrada y salida del producto por SKU. 📜
-5.  En todos los casos en donde aplique, si el SKU no existe, mostrar mensaje de error. ❌
-6.  Los menús deben tener una opción para salir del sistema. 🚪
+- Mostrar el catálogo de todos los productos. 📚
+- Mostrar un producto por SKU. 🔍
+- Registrar una entrada/salida de inventario de un producto por SKU y número de unidades. ➕/➖
+- Mostrar el listado de todos los movimientos de entrada y salida del producto por SKU. 📜
+- En todos los casos en donde aplique, si el SKU no existe, mostrar mensaje de error. ❌
+- Los menús deben tener una opción para salir del sistema. 🚪
 
-Para simplificar el programa, todos los datos se pueden modelar como diccionarios "quemados" o "cableados" en constantes que van a representar la Base de Datos, tal como se hizo en el ejemplo de estadísticas. 🔥
+Para simplificar el programa, todos los datos se pueden modelar como diccionarios _quemados_ o _cableados_ en constantes que van a representar la Base de Datos, tal como se hizo en el ejemplo de estadísticas. 🔥
 
 El ejercicio debe realizarse en dos partes:
 
@@ -235,4 +240,9 @@ Implementa el sistema en un solo archivo `.py`. Analiza las ventajas y posibles 
 
 ### 🧩 Programa modular
 
-Divide el programa en funcionalidades (por ejemplo, menús, catálogo de productos, movimientos de inventario) separando en varios módulos `.py`, con un programa principal que utilice los módulos para el sistema. Analiza las ventajas y desventajas de esta aproximación. ¿En qué mejora el código? 🚀
+Divide el programa en funcionalidades como 
+- Menús.
+- Catálogo de productos
+- Movimientos de inventario 
+
+Separando módulos `.py`, con un programa principal que utilice dichos módulos. Analiza las ventajas y desventajas de esta aproximación. ¿En qué mejora el código? 🚀
